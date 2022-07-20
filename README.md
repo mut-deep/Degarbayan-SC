@@ -27,6 +27,13 @@ Afterwards, import `persian_qa` dataset using `load_dataset`:
 
 ```python
 from datasets import load_dataset
-dataset = load_dataset("SajjadAyoubi/persian_qa")
+dataset = load_dataset("m0javad/Degarbayan-SC")
 ```
+### Examples
+
+
+
+### Statistic
+![Lenght 0f sentences](https://ibb.co/DV0G5Sy)
+
 
