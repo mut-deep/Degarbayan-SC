@@ -9,5 +9,24 @@ Paraphrase generation and paraphrase detection are important tasks in Natural La
 | ParaNMT-50 | 50M | 2018 | sentential paraphrase pairs are generated automatically by using neural machine translation |
 | **ours** | **1.5M** | **2022** | **Based on aligning sentences in hundreds of movie subtitles** |
  
- our dataset has 2 columns that the first column is for source sentences and the seocond is for target sentences
- 
+ - our dataset has 2 columns that the first column is for source sentences and the second is for target sentences
+ - 
+## Dataset
+
+### Access and Download
+You can find the dataset under this link of [Google Drive](https://drive.google.com/file/d/1-0B-t9MISKmymaBn88ay4EUS1X7awwLL/view?usp=sharing).
+
+Alternatively, you can also access the data through the HuggingFace🤗 datasets library.
+For that, you need to install datasets using this command in your terminal:
+
+```sh
+pip install -q datasets
+```
+
+Afterwards, import `persian_qa` dataset using `load_dataset`:
+
+```python
+from datasets import load_dataset
+dataset = load_dataset("SajjadAyoubi/persian_qa")
+```
+
