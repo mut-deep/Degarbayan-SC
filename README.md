@@ -49,5 +49,10 @@ our sentence length distribution is between 3 and 19 words and sentences are an 
 
 as you see in the table above, our dataset contains a large number of paraphrasing sentences in various forms such syntactic, semantic and conceptual paraphrases.
 
-### Citation
-...
+### contact
+
+contact me for contribution and future possible works at: mjaghajani.ai@gmail.com
+
+### aknowledgement
+
+I would like to thank my dear teacher Dr.Keyvanrad and my colleagues, [Zahra ghasemi](https://github.com/ZahraGhasemi-AI), [Ali sadeghian](https://github.com/alisdnn)
