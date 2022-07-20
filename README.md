@@ -38,4 +38,16 @@ our sentence length distribution is between 3 and 19 words and sentences are an 
 
 ### Examples
 
+| Source sentence | Target sentence |
+| ---: | ---: |
+| باقی زندگی بچه هاتو تغییر میده | این تصمیم قراره زندگی بچه هاتو عوض کنه| 
+| خب انگار که داریم انجامش میدیم | فکر کنم داریم این کارو می‌کنیم |
+| به من بگو کی پشت این جریانه | میخوای به من بگی که کی پشت همه ایناست | 
+| بیدار شو   باهات کار دارم | از اون تو بیا بیرون رفیق بهت نیاز دارم |
+|به هر حال  این سرزمین مال اونه | بااینکه این سرزمین متعلق به اونه  | 
+|باک  ما الان همه با هم گره خوردیم |  باک  ما همگی بهم وصل هستیم| 
 
+as you see in the table above, our dataset has a large number of paraphrasing sentences in various forms such syntactic, semantic and conceptual paraphrases.
+
+### Citation
+...
