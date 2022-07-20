@@ -9,16 +9,17 @@ Paraphrase generation and paraphrase detection are important tasks in Natural La
 | ParaNMT-50 | 50M | 2018 | sentential paraphrase pairs are generated automatically by using neural machine translation |
 | **ours** | **1.5M** | **2022** | **Based on aligning sentences in hundreds of movie subtitles** |
  
- - our dataset has 2 columns that the first column is for source sentences and the second is for target sentences
- - 
+ 
 ## Dataset
 
 ### Access and Download
 You can find the dataset under this link of [Google Drive](https://drive.google.com/file/d/1-0B-t9MISKmymaBn88ay4EUS1X7awwLL/view?usp=sharing).
+- Dataset is in .csv format
+- our dataset has 2 columns that the first column is for source sentences and the second one is for targets.
 
 Alternatively, you can also access the data through the HuggingFace🤗 datasets library.
 For that, you need to install datasets using this command in your terminal:
-
+(We will share it on HuggingFace after our paper is published)
 ```sh
 pip install -q datasets
 ```
@@ -29,11 +30,12 @@ Afterwards, import `persian_qa` dataset using `load_dataset`:
 from datasets import load_dataset
 dataset = load_dataset("m0javad/Degarbayan-SC")
 ```
-### Examples
-
-
 
 ### Statistic
-![Lenght 0f sentences](https://ibb.co/DV0G5Sy)
+![Lenght of sentences](https://i.ibb.co/C1RJhTZ/lenght.jpg")
+
+our sentence length distribution is between 3 and 19 words and sentences are an average of 8 words. This makes sense because in the movie subtitles, sentences are shown in a range of time and we matched them with timespans. Humans can say a certain number of words in a certain period of time. Our collected sentences have 128,699 unique words.
+
+### Examples
 
 
