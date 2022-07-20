@@ -47,7 +47,7 @@ our sentence length distribution is between 3 and 19 words and sentences are an 
 |به هر حال  این سرزمین مال اونه | بااینکه این سرزمین متعلق به اونه  | 
 |باک  ما الان همه با هم گره خوردیم |  باک  ما همگی بهم وصل هستیم| 
 
-as you see in the table above, our dataset has a large number of paraphrasing sentences in various forms such syntactic, semantic and conceptual paraphrases.
+as you see in the table above, our dataset contains a large number of paraphrasing sentences in various forms such syntactic, semantic and conceptual paraphrases.
 
 ### Citation
 ...
